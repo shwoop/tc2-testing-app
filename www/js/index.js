@@ -19,7 +19,8 @@ var app = {
   },
   // Update DOM on a Received Event
   receivedEvent: function(id) {
-    window.location="http://secure.tutorcruncher.com/testagency/login";
+    console.log('Received Event: ' + id);
+    window.location = "https://secure.tutorcruncher.com/testagency/login";
   }
 };
 

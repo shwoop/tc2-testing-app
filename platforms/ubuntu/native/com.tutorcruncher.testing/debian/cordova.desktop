@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=TutorCruncher
-Exec=/opt/com.tutorcruncher.testing/cordova-ubuntu
-Terminal=false
-Type=Application
-X-Ubuntu-Touch=true
-Icon=/opt/com.tutorcruncher.testing/www/img/logo.png

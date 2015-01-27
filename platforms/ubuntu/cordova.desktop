@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=TutorCruncher
-Exec=./cordova-ubuntu www/
-Terminal=false
-Type=Application
-X-Ubuntu-Touch=true
-Icon=www/img/logo.png
