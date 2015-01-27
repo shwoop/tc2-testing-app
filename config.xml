@@ -9,6 +9,6 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <access origin="http://secure.tutorcruncher.com" subdomains="true"/>
+    <access origin="http://tutorcruncher.com" subdomains="true"/>
     <icon src="img/logo.png" />
 </widget>
