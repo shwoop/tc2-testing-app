@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tutorcruncher.testing" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TutorCruncher</name>
+    <description>
+        Agency Management Software
+    </description>
+    <author email="info@toturcruncher.com" href="http://www.tutorcruncher.com">
+        TutorCruncher
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon src="img/logo.png" />
+</widget>

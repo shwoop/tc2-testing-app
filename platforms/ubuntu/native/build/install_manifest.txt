@@ -1,0 +1,10 @@
+/home/samuel/tc2app/platforms/ubuntu/native/prefix/cordova-ubuntu
+/home/samuel/tc2app/platforms/ubuntu/native/prefix/www/libcoreplugins.so
+/home/samuel/tc2app/platforms/ubuntu/native/prefix/www/cordova.js
+/home/samuel/tc2app/platforms/ubuntu/native/prefix/qml/main.qml
+/home/samuel/tc2app/platforms/ubuntu/native/prefix/CordovaUbuntu.4.0/libcordovaubuntuplugin.so
+/home/samuel/tc2app/platforms/ubuntu/native/prefix/CordovaUbuntu.4.0/CordovaView.qml
+/home/samuel/tc2app/platforms/ubuntu/native/prefix/CordovaUbuntu.4.0/CordovaViewInternal.qml
+/home/samuel/tc2app/platforms/ubuntu/native/prefix/CordovaUbuntu.4.0/escape.js
+/home/samuel/tc2app/platforms/ubuntu/native/prefix/CordovaUbuntu.4.0/cordova_wrapper.js
+/home/samuel/tc2app/platforms/ubuntu/native/prefix/CordovaUbuntu.4.0/qmldir
