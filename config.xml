@@ -9,5 +9,6 @@
     </author>
     <content src="index.html" />
     <access origin="https://secure.tutorcruncher.com"/>
+    <access origin="https://tutorcruncher.s3.amazonaws.com"/>
     <icon src="img/logo.png" />
 </widget>
