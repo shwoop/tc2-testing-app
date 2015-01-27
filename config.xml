@@ -8,6 +8,6 @@
         TutorCruncher
     </author>
     <content src="index.html" />
-    <access origin="http://tutorcruncher.com" subdomains="true"/>
+    <access origin="https://secure.tutorcruncher.com"/>
     <icon src="img/logo.png" />
 </widget>
