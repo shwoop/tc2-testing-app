@@ -7,14 +7,12 @@
     <author email="info@tutorcruncher.com" href="http://www.tutorcruncher.com/">
         TutorCruncher
     </author>
-    <content src="index.html" />
-    <plugin name="cordova-plugin-whitelist" version="1" />
     <access origin="https://secure.tutorcruncher.com"/>
     <access origin="https://tutorcruncher.s3.amazonaws.com"/>
     <access origin="https://tutorcruncher-public.s3.amazonaws.com"/>
-    <icon src="www/img/logo.png" />
-    <allow-intent href="http://*/*" />
+    <content src="index.html" />
     <allow-intent href="https://*/*" />
+    <icon src='www/img/logo.png'/>
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
