@@ -9,6 +9,7 @@ var app = {
         app.receivedEvent('deviceready');
     },
     receivedEvent: function(id) {
+        document.cookie = "isPhoneGap=true";
         window.location = 'http://secure.tutorcruncher.com/'
     }
 };

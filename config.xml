@@ -11,6 +11,7 @@
     <plugin name="cordova-plugin-whitelist" version="1" />
     <access origin="https://secure.tutorcruncher.com"/>
     <access origin="https://tutorcruncher.s3.amazonaws.com"/>
+    <access origin="https://tutorcruncher-public.s3.amazonaws.com"/>
     <icon src="www/img/logo.png" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
