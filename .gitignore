@@ -1,2 +1,7 @@
 *.swp
+*.swp
 *.log
+/platforms
+/plugins
+*.keystore
+*.apk
