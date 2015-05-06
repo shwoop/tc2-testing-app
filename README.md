@@ -53,23 +53,23 @@ cordova build android --release
 ```
 This should generate
 ```
-<project dir>/platforms/android/build/outputs/apk/android-release-unaligned.apk
+<project dir>/platforms/android/build/outputs/apk/android-release-unsigned.apk
 ```
 Finalising release build
 ---
 The release build must be signed by the author to run on android (debug builds sign with a generic debug key).
 To publish to the app store the apk must also be aligned along zip blocks.
 
-Align with the below, substitute the appropriate api version for `22.0.1` if different:
-```
-cd /opt/android-sdk/build-tools/22.0.1
-./zipalign -v 4 <project dir>/platforms/android/build/outputs/apk/android-release-unaligned.apk <project dir>/platforms/android/build/outputs/apk/android-release-aligned.apk
-```
-
 To sign with the tc2 keystore:
 ```
 cd <project dir>/platforms/android/build/outputs/apk
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore <path to>/tc_mobile_app.keystore android-release-aligned.apk tc2_mobile
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore <path to>/tc_mobile_app.keystore android-release-unsigned.apk tc2_mobile
+mv android-release-unsigned.apk android-release-signed.apk
 ```
-This should generate a file named `android-relaase-aligned-signed.apk`.
 the file tc_mobile_app.keystore contains our signing keys, `tc2_mobile` is the identity of the key in question, and the password you will be prompted for is ...
+
+Align with the below, substitute the appropriate api version for `22.0.1` if different:
+```
+cd /opt/android-sdk/build-tools/22.0.1
+./zipalign -v 4 <project dir>/platforms/android/build/outputs/apk/android-release-signed.apk <project dir>/platforms/android/build/outputs/apk/android-release.apk
+```
